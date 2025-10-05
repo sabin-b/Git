@@ -21,6 +21,8 @@
  * Yes, your understanding is correct. If you added a new feature in a separate folder (for example, in "feature/"), and did not touch any older or unrelated files in that commit, and your later commits only changed other files (but not files in the "feature/" folder), then running git revert <commit-id> on the feature commit will only remove that feature folder and its contents.
  The revert will not affect the other files you changed in later commits. There will be no merge conflicts, because no other commits after the feature commit modified the same files or folder. Only the addition of the feature will be undone; the rest of your codebase stays the same.
  * 
+ * git pull -r
+ * git remote set-url --push origin repo url ( push only)
  * 
- * 
+ * 01:23 time
  */
