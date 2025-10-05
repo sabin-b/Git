@@ -12,5 +12,5 @@
  * --soft - by default, command will work in soft mode, make sure soft mode when we do new files and changes will be exists, only head will be initial commit, now if we push, unitill then initial commit go to git repo
  * --hard - when we use this all of the files, folder and changes will be deleted, also head will be move to previous commit
  * 
- * 
+ * 5) git revert commit-id - if we thought remove 
  */
